@@ -1,0 +1,63 @@
+Cara Bermain Sudoku
+________________________________________
+1️. Tujuan Game Sudoku
+Tujuan dari Sudoku adalah mengisi semua sel kosong di papan 9x9 dengan angka dari 1 hingga 9. Setiap angka hanya boleh muncul satu kali di setiap baris, kolom, dan kotak 3x3. Pemain dapat memilih tingkat kesulitan (Mudah, Menengah, atau Sulit) di awal permainan.
+________________________________________
+2️. Aturan Permainan
+	Isi Sel Kosong:
+Pemain harus mengisi angka dari 1 hingga 9 ke dalam setiap sel kosong.
+	Aturan Baris:
+Angka di setiap baris tidak boleh ada yang sama.
+	Aturan Kolom:
+Angka di setiap kolom tidak boleh ada yang sama.
+	Aturan Kotak 3x3:
+Angka dalam kotak 3x3 tidak boleh ada yang sama.
+________________________________________
+3️. Cara Memasukkan Angka
+	Masukkan Baris, Kolom, dan Angka:
+Pemain harus memasukkan posisi baris dan kolom di mana mereka ingin mengisi angka.
+
+Format input:
+Masukkan baris (1-9),kolom (1-9),dan angka (1-9) (misal: 1 2 5)
+Contoh Input:
+1 2 5 
+Artinya, angka 5 akan dimasukkan ke baris 1, kolom 2.
+Validasi Input:
+	Jika angka tersebut valid dan sesuai aturan Sudoku, angka akan dimasukkan ke papan.
+	Jika angka tersebut salah, pemain akan kehilangan 1 nyawa dan pesan kesalahan akan muncul.
+________________________________________
+4️. Cara Menang dan Kalah
+🏆 Menang
+	Pemain akan menang jika semua angka sudah terisi dengan benar di papan Sudoku.
+	Pesan kemenangan akan muncul seperti ini:
+Selamat,Anda menang! Yeayyy dapet IPK 4
+Press any key to exit...
+❌ Kalah
+	Pemain akan kalah jika jumlah nyawa mencapai 0.
+	Pesan kekalahan akan muncul seperti ini:
+Game Over! Anda kehabisan nyawa.
+Press any key to exit...
+________________________________________
+5. Kontrol
+
+Kontrol	Aksi
+1, 2, 3	Pilih tingkat kesulitan (1 = Mudah, 2 = Menengah, 3 = Sulit).
+Baris Kolom Angka	Memasukkan baris, kolom, dan angka (contoh: 1 2 5).
+Enter	Menyelesaikan input ke permainan.
+Tombol lain	Digunakan untuk keluar dari permainan setelah menang/kalah.
+________________________________________
+
+6️. Tips dan Trik
+	Mulai dari Mudah:
+Pilih tingkat Mudah untuk memahami cara kerja permainan.
+	Gunakan Logika, Jangan Menebak:
+Cobalah menggunakan logika dan aturan Sudoku. Jangan menebak angka.
+	Perhatikan Baris, Kolom, dan Kotak 3x3:
+Sebelum memasukkan angka, pastikan angka tersebut belum ada di baris, kolom, dan kotak 3x3.
+________________________________________
+7️. Troubleshooting
+Masalah				Penyebab		Solusi
+Input Salah			Pemain memasukkan angka di luar 1-9	Pastikan hanya memasukkan angka 1-9
+Game Tidak Berhenti	Tidak menekan tombol setelah menang/kalah	Tekan tombol apa saja untuk keluar
+Crash / Error	Input baris/kolom di luar 1-9	Pastikan input hanya dari 1-9
+
